@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_mobilecrowd">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000ff"
+        android:text="About:"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Location aware smatphone support various location based services(LBSs) Usres query the LBS server and learn on the fly about thier surroundings.However,
+        ***************************
+        ******************************
+        ***********************
+
+
+
+       **********************
+       *********************
+       ********************
+       ********************
+
+       ***********
+
+       ******************
+       *****************
+       ****************
+       *******************************
+       ******************************
+       *****************
+       ******************"/>
+
+    <Button
+        android:id="@+id/btn_next2"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/btn_bggrd"
+        android:text="Next"/>
+
+</LinearLayout>
