@@ -18,27 +18,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Location aware smatphone support various location based services(LBSs) Usres query the LBS server and learn on the fly about thier surroundings.However,
-        ***************************
-        ******************************
-        ***********************
-
-
-
-       **********************
-       *********************
-       ********************
-       ********************
-
-       ***********
-
-       ******************
-       *****************
-       ****************
-       *******************************
-       ******************************
-       *****************
-       ******************"/>
+        android:text="Location aware smatphone support various location based services(LBSs) Usres query the LBS server and learn on the fly about thier surroundings.However,such a queries give away private information,enabling the LBS to track users.We address this problem by proposing a user-collaborative privacy-preserving approach for LBSs.Our solution does not require changing the LBS server architecture and does not assume third party servers,yet,it significantly improves users location privacy.The gain stems from the collaboration of mobile devices:they keep their context information in a buffer and pass it to others seeking such information.thus,a user remains hidden from the server,unless all the coolaborative peers in the vicinity lack the sought information.We evaluate our scheme against the bayesian localization attacks that allow for strong adversaries who can incorporate prior knowledge in their attacks.We develop a novel epldemic model to capture the,possibly time-dependent, dynamics of information propagation among users.Used in Bayesian interface framework,this model helps analyze the effects of various parameters,such as users querying rates and the lifetime of context information,on user's  location privacy.The results show that our scheme hides a high fraction of location-based queries.Thus significantly enhancing user's location privacy.Our simulations with real mobility traces collaborate our model-based findings.Finally,our implementation on mobile platforms indicates that it is lightweight and the cost of collaboration is neglogible."/>
+/>
 
     <Button
         android:id="@+id/btn_next2"
